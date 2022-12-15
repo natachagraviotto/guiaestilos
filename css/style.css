@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Poppins', sans-serif;
   color: #1e1e1e;
   background-color: #e1e1e1;
   font-weight: 400;
@@ -75,7 +75,6 @@ button:hover,
   background-color: white;
 }
 
-
 code {
   background-color: #e1e1e1;
   font-weight: 400;
@@ -85,64 +84,52 @@ code {
 }
 /* ---> UTILITIES */
 
-/* Colors */
-.color-green {
-  color: #729f34;
-}
-.bg-color-green {
-  background-color: #729f34;
+/* Colores principales */
+.color-black {
+  color: #1F1D1E;
 }
 
-.color-green-3 {
-  color: #8fc741;
-}
-.bg-color-green-3 {
-  background-color: #8fc741;
+.bg-color-black {
+  background-color: #1F1D1E;
 }
 
-.color-blue {
-  color: #002137;
+.color-white {
+    color: #FFFFFF;
+  }
+  
+  .bg-color-white {
+    background-color: #FFFFFF;
+  }
+
+/* Colores secundarios */
+.color-pink {
+  color: #D03880;
 }
-.bg-color-blue {
-  background-color: #002137;
+.bg-color-pink {
+  background-color: #D03880;
 }
 
-.color-blue-3 {
-  color: #4D6473;
-}
-.bg-color-blue-3 {
-  background-color: #4D6473;
-}
-
+/* Escala de grises */
 .color-grey {
-  color: #1e1e1e;
+  color: #333333;
 }
 .bg-color-grey {
-  background-color: #1e1e1e;
+  background-color: #333333;
 }
 
 .color-grey-2 {
-  color: #a2a2a2;
+  color: #666666;
 }
 .bg-color-grey-2 {
-  background-color: #a2a2a2;
+  background-color: #666666;
 }
 
 .color-grey-3 {
-  color: #a2a2a2;
+  color: #CCCCCC;
 }
 .bg-color-grey-3 {
-  background-color: #a2a2a2;
+  background-color: #CCCCCC;
 }
-
-.color-grey-5 {
-  color: #dadada;
-}
-.bg-color-grey-5 {
-  background-color: #dadada;
-}
-
-
 
 /* Own styles, these are only for styling THIS page */
 
