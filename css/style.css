@@ -49,30 +49,37 @@ button,
 .btn {
   display: inline-block;
   padding: 0 16px;
-  background-color: #729f34;
+  background-color: #D03880;
   text-decoration: none;
   color: white;
-  border: 1px solid #a2a2a2;
+  border: 2px solid #D03880;
   line-height: 2;
   text-transform: uppercase;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 600;
   font-size: 1rem;
   letter-spacing: 2px;
   cursor: pointer;
+  border-radius: 15px;
 }
 
 button:hover,
 .btn:hover {
-  background-color: #8fc741;
+  background-color: #ffffff;
+  color: #333333;
+  font-family: 'Poppins', sans-serif, Bold;
 }
 
 .btn--secondary {
-  background-color: #dadada;
-  color: #1e1e1e;
+  background-color: #333333;
+  color: #ffffff;
+  text-decoration: none;
+  border: 2px solid #333333;
+
 }
 .btn--secondary:hover {
-  background-color: white;
+  background-color: #D03880;
+  color: white;
 }
 
 code {
