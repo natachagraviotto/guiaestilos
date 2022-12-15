@@ -116,6 +116,15 @@ code {
   background-color: #D03880;
 }
 
+.color-pink2 {
+  color: #E45C9C;
+}
+.bg-color-pink2 {
+  background-color: #E45C9C;
+}
+
+
+
 /* Escala de grises */
 .color-grey {
   color: #333333;
@@ -175,3 +184,39 @@ code {
 [data-header]:before {
   content: attr(data-header) ": ";
 }
+
+/* FORMULARIO */
+
+form{
+  font-family: 'Poppins', sans-serif;
+  padding: 60px;
+  max-width: 400px;
+  background-color: #CCCCCC;
+  margin: 0 auto;
+}
+
+form input, form textarea{
+  margin-bottom: 15px;
+  font-family: 'Poppins', sans-serif;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box; 
+  border: none; 
+  color: #333333; 
+  font-size: 1em;
+  resize: none; 
+}
+
+form button {
+	display: block;
+	background-color: #0095eb;
+	padding: 10px 45px 10px 45px;
+	border: 0;
+	font-size: 1em; 
+	color: 	white;
+  font-family: 'Poppins', sans-serif;
+}
+form button: hover{
+	background-color: #046193;
+}
+textarea {  resize: none;}

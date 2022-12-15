@@ -26,12 +26,13 @@
       <!--Colores secundarios-->
       <h3 class="h5">Secondary Color tints</h3>
       <div class="pattern-color bg-color-pink" data-color="#D03880"></div>
+      <div class="pattern-color bg-color-pink2" data-color="#E45C9C"></div>
 
       <!--Escala de grises-->
       <h3 class="h5">Grey scale</h3>
       <div class="pattern-color bg-color-grey" data-color="#333333"></div>
-      <div class="pattern-color bg-color-grey-3" data-color="#666666"></div>
-      <div class="pattern-color bg-color-grey-5" data-color="#CCCCCC"></div>
+      <div class="pattern-color bg-color-grey-2" data-color="#666666"></div>
+      <div class="pattern-color bg-color-grey-3" data-color="#CCCCCC"></div>
     </section>
 
     <section class="pattern-section">
@@ -54,7 +55,18 @@
       <button class="btn--secondary">Action</button>
       <a href="#" class="btn btn--secondary">Button Link</a>
     </section>
-  </main>
 
+    <!-- FORMULARIO -->
+    <section class="pattern-section">
+      <h2 class="pattern-title">Form</h2>
+    <form action="formulario-contacto.php" method="post">	
+      <input name="nombre" type="text" placeholder="Name" maxlength="30" pattern="[a-zA-Z0-9]+" required autofocus/>
+      <input name="email" type="email" placeholder="Email" required />	
+      <textarea name="consulta" placeholder="Tell me!" rows="6" required></textarea>
+      <button id="enviar" name="enviar" type="submit" class="btn">SEND</button>
+    </form>
+    </section>
+
+  </main>
 </body>
 </html>
